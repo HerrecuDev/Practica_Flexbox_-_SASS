@@ -66,7 +66,7 @@ main{
 h2{
 
   font-size: 20px;
-  color: black;
+  color: $color-textoPrincipal;
 
 }
 img {
@@ -77,10 +77,10 @@ img {
 
 .fecha, .autor {
     font-size: 15px;
-    color: black;
+    color: $color-textoPrincipal;
 
     span {
-      color: #ff1493; 
+      color: $color-p; 
       font-weight: bold;
     }
   }
