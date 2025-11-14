@@ -11,3 +11,36 @@
     
     background-color: $color-link;
 }
+
+//Para el color del fondo::after
+@mixin colorFondo($color-Body){
+
+    background-color:$color-Body ;
+
+}
+@mixin colorArticle($color-Article){
+
+    background-color:$color-Article ;
+
+}
+
+@mixin tablet(){
+
+    @media (min-width:480px) {
+
+        @content;
+        
+    }
+
+}
+
+@mixin web{
+
+    @media (min-width:780px) {
+
+        @content;
+    
+    }
+
+
+}
