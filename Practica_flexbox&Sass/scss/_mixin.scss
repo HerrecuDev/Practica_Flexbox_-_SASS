@@ -47,6 +47,14 @@
     color:white;
     background-color: $color-link;
 
+    &:hover{
+
+        background-color:$color-hover;
+        transform: scale(1.1);
+    }
+
+
+
 
 }
 
