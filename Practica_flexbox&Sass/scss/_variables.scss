@@ -13,4 +13,12 @@ $color-p:#F527EE;
 $font-main: 'Arial', sans-serif;
 
 
-//Articulos tarjetas :
+
+//Formato de vision de la web
+$formatoTablet:480px;
+$formatoWeb: 768px;
+
+
+//Formato de distribucion del contenido:
+$distribucionTablet: calc(100%/2 - 1rem/2);
+$distribucionWeb: calc(100%/3 - 1rem/3);

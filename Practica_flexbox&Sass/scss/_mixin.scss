@@ -3,9 +3,9 @@
 
 
 
-@mixin tablet(){
+@mixin tablet{
 
-    @media (min-width:480px) {
+    @media (min-width:$formatoTablet) {
 
         @content;
         
@@ -15,7 +15,7 @@
 
 @mixin web{
 
-    @media (min-width:780px) {
+    @media (min-width:$formatoWeb) {
 
         @content;
     
@@ -23,7 +23,30 @@
 
 
 }
+
+//Genero varios mixin para el formato del texto y del boton ::after
+@mixin formatoTexto{
+
+    font-size: 15px;
+    text-align: center;
+    margin-top:15px;
+    color: $color-textoPrincipal;
+
+}
+
+@mixin formatoSpan{
+    color: $color-p; 
+    font-weight: bold;
+}
+
+
 @mixin formatoBoton{
+    padding: 10px;
+    margin-top: 10px;
+
+    color:white;
+    background-color: $color-link;
 
 
 }
+
