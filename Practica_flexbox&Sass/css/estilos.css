@@ -87,7 +87,7 @@ main article button {
   background-color: #00aaff;
 }
 main article button:hover {
-  background-color: #F527EE;
+  background-color: yellow;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-}/*# sourceMappingURL=estilos.css.map */
+}
